@@ -92,10 +92,10 @@ Ao selecionar "Registro de Frequência", o usuário deve escolher a data e, em s
 
 ## Instalação
 
-1. Clone o repositório: `git clone https://github.com/seu-usuario/frequencia-esportiva.git`
-2. Entre na pasta do projeto: `cd frequencia-esportiva`
+1. Clone o repositório: `git clone https://github.com/fngneto/frequencia-aulas/`
+2. Entre na pasta do projeto: `cd frequencia-aulas`
 3. Instale as dependências: `npm install`
-4. Inicie o aplicativo: `npm start`
+4. Inicie o aplicativo: `npm run dev`
 
 ## Licença
 
