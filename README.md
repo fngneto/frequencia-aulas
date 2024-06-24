@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Frequência Esportiva
 
-## Getting Started
+Aplicativo para registro de frequência em modalidades esportivas.
 
-First, run the development server:
+## Estrutura do Aplicativo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 1. Tela Inicial
+Ao abrir o aplicativo, a tela inicial deve apresentar as seguintes opções:
+- Registro de Frequência
+- Cadastrar nova modalidade
+- Cadastrar nova turma
+- Cadastrar novo aluno
+- Relatório mensal
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Registro de Frequência
+Ao selecionar "Registro de Frequência", o usuário deve escolher a data e, em seguida, a tela exibe uma lista de alunos com:
+- Foto do aluno
+- Nome do aluno
+- Idade do aluno
+- Botões para marcar "Frequente" ou "Ausente"
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### 3. Cadastrar nova modalidade
+Tela para adicionar uma nova modalidade esportiva:
+- Campo para nome da modalidade
+- Botão para salvar
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### 4. Cadastrar nova turma
+Tela para adicionar uma nova turma:
+- Campo para nome da turma
+- Selecionar modalidade (dropdown)
+- Botão para salvar
 
-## Learn More
+### 5. Cadastrar novo aluno
+Tela para adicionar um novo aluno:
+- Campo para nome do aluno
+- Campo para idade do aluno
+- Campo para foto do aluno (upload de imagem)
+- Selecionar turma (dropdown)
+- Botão para salvar
 
-To learn more about Next.js, take a look at the following resources:
+### 6. Relatório mensal
+Tela para gerar e visualizar relatórios de frequência:
+- Selecionar mês e ano
+- Selecionar turma
+- Botão para gerar relatório
+- Exibição do relatório com a frequência dos alunos
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Como Contribuir
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Faça um fork deste repositório.
+2. Crie uma branch para sua feature (`git checkout -b feature/nome-da-feature`).
+3. Faça commit das suas alterações (`git commit -m 'Adiciona uma nova feature'`).
+4. Faça push para a branch (`git push origin feature/nome-da-feature`).
+5. Abra um Pull Request.
 
-## Deploy on Vercel
+## Estrutura do Código
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- `src/`: Contém o código-fonte do aplicativo.
+- `assets/`: Contém os arquivos estáticos como imagens e estilos.
+- `docs/`: Contém a documentação adicional.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Requisitos
+
+- [Lista de tecnologias e versões necessárias, por exemplo: React, Node.js, etc.]
+
+## Instalação
+
+1. Clone o repositório: `git clone https://github.com/seu-usuario/frequencia-esportiva.git`
+2. Entre na pasta do projeto: `cd frequencia-esportiva`
+3. Instale as dependências: `npm install`
+4. Inicie o aplicativo: `npm start`
+
+## Licença
+
+GNU General Public License (GPL)
