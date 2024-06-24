@@ -5,6 +5,7 @@ Aplicativo para registro de frequência em modalidades esportivas.
 ## Estrutura do Aplicativo
 
 ### 1. Tela Inicial
+(design-ui/Sign Up.png)
 Ao abrir o aplicativo, a tela inicial deve apresentar as seguintes opções:
 - Registro de Frequência
 - Cadastrar nova modalidade
