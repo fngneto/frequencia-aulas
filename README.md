@@ -6,7 +6,9 @@ Conheça mais sobre o Projeto Estrela em [Projeto Estrela Oficial](https://www.i
 ## Estrutura do Aplicativo
 
 ### 1. Tela Inicial
-![Sign Up](ui-design/Sign%20Up.png) ![Log In](ui-design/Log%20In.png) ![Calendário](ui-design/Calendário.png)
+![Sign Up](ui-design/Sign%20Up.png) 
+![Log In](ui-design/Log%20In.png) 
+![Calendário](ui-design/Calendário.png)
 *Sign Up, Log In e Calendário*
 
 Ao abrir o aplicativo, a tela inicial deve apresentar as seguintes opções:
