@@ -1,14 +1,12 @@
-# Frequência Esportiva
-
-Este projeto é dedicado ao desenvolvimento de um aplicativo para registro de frequência em modalidades esportivas, criado como parte do Projeto Estrela, uma iniciativa social sem fins lucrativos que busca promover atividades esportivas. 
-Conheça mais sobre o Projeto Estrela em [Projeto Estrela Oficial](https://www.instagram.com/projetoestrelaoficial).
-
 ## Estrutura do Aplicativo
 
 ### 1. Tela Inicial
-![Sign Up](ui-design/Sign%20Up.png) 
-![Log In](ui-design/Log%20In.png) 
+![Sign Up](ui-design/Sign%20Up.png)
+
+![Log In](ui-design/Log%20In.png)
+
 ![Calendário](ui-design/Calendário.png)
+
 *Sign Up, Log In e Calendário*
 
 Ao abrir o aplicativo, a tela inicial deve apresentar as seguintes opções:
@@ -20,8 +18,13 @@ Ao abrir o aplicativo, a tela inicial deve apresentar as seguintes opções:
 
 ### 2. Registro de Frequência
 Ao selecionar "Registro de Frequência", o usuário deve escolher a data e, em seguida, a tela exibe uma lista de alunos com:
-![Registro de Frequência](ui-design/Presença.png) ![Início Chamada](ui-design/Inicio%20Chamada.png)
+
+![Registro de Frequência](ui-design/Presença.png)
+
+![Início Chamada](ui-design/Inicio%20Chamada.png)
+
 *Registro de Frequência e Início Chamada*
+
 - Foto do aluno
 - Nome do aluno
 - Idade do aluno
@@ -29,16 +32,22 @@ Ao selecionar "Registro de Frequência", o usuário deve escolher a data e, em s
 
 ### 3. Cadastrar nova turma
 Tela para adicionar uma nova turma:
+
 ![Cadastrar Turma](ui-design/Turma.png)
+
 *Cadastrar Turma*
+
 - Campo para nome da turma
 - Selecionar modalidade (dropdown)
 - Botão para salvar
 
 ### 4. Cadastrar novo aluno
 Tela para adicionar um novo aluno:
+
 ![Cadastrar Aluno](ui-design/Cadastro%20Aluno.png)
+
 *Cadastrar Aluno*
+
 - Campo para nome do aluno
 - Campo para idade do aluno
 - Campo para foto do aluno (upload de imagem)
@@ -47,8 +56,11 @@ Tela para adicionar um novo aluno:
 
 ### 5. Ver Aluno
 Tela para visualizar informações detalhadas do aluno:
+
 ![Ver Aluno](ui-design/Ver%20Aluno.png)
+
 *Ver Aluno*
+
 - Foto do aluno
 - Nome do aluno
 - Idade do aluno
@@ -58,8 +70,11 @@ Tela para visualizar informações detalhadas do aluno:
 
 ### 6. Relatório mensal
 Tela para gerar e visualizar relatórios de frequência:
+
 ![Relatório Mensal](ui-design/Relatório.png)
+
 *Relatório Mensal*
+
 - Selecionar mês e ano
 - Selecionar turma
 - Botão para gerar relatório
