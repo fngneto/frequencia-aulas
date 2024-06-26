@@ -1,5 +1,0 @@
-const aulasData = [
-  { nome: 'Aula 1', horario: '08:00 - 09:30' },
-  { nome: 'Aula 2', horario: '10:00 - 11:30' },
-  { nome: 'Aula 3', horario: '13:00 - 14:30' },
-];
