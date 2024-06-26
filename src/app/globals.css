@@ -1,3 +1,20 @@
 .css-1ksn19v.Mui-selected{
     background-color: black;
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .calendar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .events-list {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
